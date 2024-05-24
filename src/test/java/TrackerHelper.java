@@ -21,7 +21,7 @@ public class TrackerHelper {
   public static MongoDatabase getDatabase() {
     MongoClient mongoClient =
         MongoClients.create(
-            "mongodb+srv://csssr-pavel-sidorov:cheethahee6jexieMaexoh9poo@csssr-testing.rynzv.mongodb.net/tracker-backend-t-master");
+            ;
     MongoDatabase database = mongoClient.getDatabase("tracker-backend-t-master");
     return database;
   }
